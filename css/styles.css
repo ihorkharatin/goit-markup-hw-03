@@ -37,6 +37,7 @@
 }
 .flex-menu-navigation-bar { 
    display: flex; 
+   width: 1158 px;
 }
 .menu-nav {
    align-items: center;
@@ -71,6 +72,7 @@ img {
    text-transform: uppercase;
    color: #4d5ae5;
    margin-right: 0;
+   margin-right: 76px;
 }
 .studio-logo {
    font-family: "Raleway", sans-serif;
