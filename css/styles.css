@@ -8,17 +8,17 @@
     background-color: #FFFFFF;
 }
 .wrapper-container-all-page {
-   max-width: 1440px;
    margin: 0 auto;
    padding: 0 auto;
    
 }
-.container-nav-links-flex-direction {
+.container-nav-links-flex-direction,
+.menu-nav  {
    display: flex;
    padding-left: 0;
    margin-top: 24px;
-   margin-bottom: 24px;
-   margin-left: 76px;
+   margin-bottom: 0;
+   margin-left: 0;
    gap: 40px;
 }
 .container-address-links-flex-direction {
@@ -40,7 +40,7 @@
    align-items: center;
 }
 .container-header-navagation-main {
-  width: 1440px;
+  
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -60,6 +60,7 @@ img {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4d5ae5;
+   margin-right: 0;
 }
 .studio-logo {
    font-family: "Raleway", sans-serif;
@@ -116,7 +117,7 @@ img {
    color: #404bbf;
  }
 
- h1, .effective-solution {
+ .effective-solution {
     font-family: "Work Sans", sans-serif;
     font-style: 700;
     font-size: 64px;
@@ -147,6 +148,7 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.2;
     text-align:start;
+    margin-bottom: 8px;
  }
  .our-goal-description-p-advantages {
    font-size: 16px;
@@ -197,6 +199,7 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.2;
     text-align: center;
+    margin-bottom: 8px;
  }
 
 
@@ -220,7 +223,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
     color:#fff;
     cursor: pointer;
     margin-left: 636px;
@@ -230,8 +233,10 @@ img {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
     padding: 0;
-    
-    
+    display: block;
+    min-width: 169px;
+    border: none;
+    border-radius: 4px;
  }
  .button-text:hover {
     background-color: #404BBF;
@@ -241,9 +246,10 @@ img {
  }
  .section-business {
    background-color: #2e2f42;
-   width: 1440px;
-   height: 600px;
+   padding-top: 188px;
+   padding-bottom: 188px;
  }
+ 
  .effective-solution {
    font-size: 56px;
    line-height: 1.07;
@@ -251,14 +257,38 @@ img {
    letter-spacing: 0.02em;
    color: #ffffff;
    margin-bottom: 48px;
+   max-width: 496px;
  }
-
+ .container-wrapper-section-two {
+   overflow: hidden;
+ }
+.container-section-two {
+   padding-top: 120px;
+   padding-bottom: 120px;
+}
+.container-ul-our-advantages {
+   gap: 24px;
+}
+.class-li-our-advantages-element {
+   margin-right: 24px;
+   width: calc((100% - 72px) / 4);
+}
+.class-li-our-advantages-element:last-child {
+   margin-right: 0;
+}
+.section-our-team {
+   padding-top: 120px;
+   padding-bottom: 120px;
+}
+.our-team-title {
+   margin-bottom: 72px;
+}
  .container-our-team-flex-direction {
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: row;
-   gap: 32px;
+   gap: 24px;
    margin-top: 200px;
    padding-bottom: 120px;
  }
@@ -273,11 +303,19 @@ img {
    height: 380px;
    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
    background-color: #fff;
-   gap: 32px;
+   gap: 24px;
    margin-top: 200px;
    padding-bottom: 120px;
+   width: calc((100% - 72px) / 4);
+   border-radius: 0px 0px 4px 4px;
 }
- 
+.container-worker-and-his-occupation {
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
+.our-team-images:last-child {
+   margin-right: 0;
+} 
 .container-section-our-team {
    background-color: #f4f4fd; 
 }
