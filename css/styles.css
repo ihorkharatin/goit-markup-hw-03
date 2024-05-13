@@ -7,11 +7,9 @@
     color: #434455;
     background-color: #FFFFFF;
 }
-.wrapper-container-all-page {
-   margin: 0 auto;
-   padding: 0 auto;
+
    
-}
+
 .container-nav-links-flex-direction,
 .menu-nav  {
    display: flex;
