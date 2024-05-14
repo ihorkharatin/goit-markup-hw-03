@@ -283,10 +283,10 @@ img {
 }
 
 
-li .class-li-our-advantages-element:first-child {
+.list-item:first-child {
    flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.class-li-our-advantages-element:last-child {
+.list-item:last-child {
    margin-right: 0;
 }
 .section-our-team {
