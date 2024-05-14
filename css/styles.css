@@ -281,6 +281,9 @@ img {
 .container-ul-our-advantages {
    gap: 24px;
 }
+.container-ul-our-advantages:first-child {
+   width: calc((100% - 72px) / 4);
+}
 .class-li-our-advantages-element:first-child {
    
    width: calc((100% - 72px) / 4); 
