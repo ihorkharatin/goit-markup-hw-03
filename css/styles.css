@@ -29,7 +29,7 @@
 }
  
 .container {
-   
+   width: 1158 px;
    padding-left: 15px;
    padding-right: 15px;
    margin: 0 auto;
@@ -194,6 +194,7 @@ img {
     color: #2e2f42;
     margin: 0;
     padding-top: 100px;
+    overflow: hidden;
  }
  .h2-our-portfolio-title {
     font-weight: 700;
@@ -286,7 +287,7 @@ img {
 }
 .class-li-our-advantages-element {
    margin-right: 24px;
-   width: calc((100% - 72px) / 4);
+   flex-basis: calc((100% - 72px) / 4);
 }
 .class-li-our-advantages-element:last-child {
    margin-right: 0;
@@ -321,7 +322,7 @@ img {
    gap: 24px;
    margin-top: 200px;
    padding-bottom: 120px;
-   width: calc((100% - 72px) / 4);
+   flex-basis: calc((100% - 72px) / 4);
    border-radius: 0px 0px 4px 4px;
 }
 .container-worker-and-his-occupation {
