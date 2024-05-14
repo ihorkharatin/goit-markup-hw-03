@@ -189,7 +189,8 @@ img {
     color: #2e2f42;
     margin: 0;
     padding-top: 100px;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
  }
  .h2-our-portfolio-title {
     font-weight: 700;
@@ -270,17 +271,13 @@ img {
    margin-bottom: 48px;
    max-width: 496px;
  }
- .container-wrapper-section-two {
-   overflow: hidden;
- }
+ 
 .container-section-two {
    padding-top: 120px;
    padding-bottom: 120px;
 }
-.visually-hidden {
-   overflow-y: hidden;
-   overflow-x: hidden;
-}
+
+
 .container-ul-our-advantages {
    gap: 24px;
 }
