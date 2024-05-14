@@ -180,17 +180,17 @@ img {
     padding-top: 120px;
  }
  .visually-hidden {
-   font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 0.02em;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
-    margin: 0;
-    padding-top: 100px;
-    overflow-x: hidden;
-    overflow-y: hidden;
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
  }
  .h2-our-portfolio-title {
     font-weight: 700;
