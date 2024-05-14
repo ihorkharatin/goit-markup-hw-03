@@ -38,7 +38,7 @@
 
 .flex-menu-navigation-bar { 
    display: flex; 
-   
+   width: 1158 px;
 }
 .menu-nav {
    align-items: center;
@@ -51,7 +51,7 @@
 .active-link {
    display: block;
 }
- .container-header-navagation-main {
+ .header-navagation-main {
   border-bottom: 1px solid #e7e9fc;
 }
 .active-link {
