@@ -277,6 +277,10 @@ img {
    padding-top: 120px;
    padding-bottom: 120px;
 }
+.visually-hidden {
+   overflow-y: hidden;
+   overflow-x: hidden;
+}
 .container-ul-our-advantages {
    gap: 24px;
 }
