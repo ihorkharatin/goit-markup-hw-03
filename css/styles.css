@@ -189,7 +189,7 @@ img {
     color: #2e2f42;
     margin: 0;
     padding-top: 100px;
-    overflow: visually-hidden;
+    overflow: hidden;
  }
  .h2-our-portfolio-title {
     font-weight: 700;
