@@ -15,12 +15,14 @@ body {
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;
-   
-   
-   
+
   
 }
 
+.header-navagation-main .container {
+   display: flex;
+   align-items: center;
+}
 
 .menu-nav {
    display: flex;
