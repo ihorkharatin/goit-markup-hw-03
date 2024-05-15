@@ -192,7 +192,7 @@ li {
 .list-item {
    width: calc((100% - 72px) / 4);
 }
-.strategy-list-h3-advantages {
+.strategy-list-item-advantages {
    margin-bottom: 8px;  /*end section two*/
 }
 
