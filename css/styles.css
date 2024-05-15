@@ -46,7 +46,7 @@ ul {
 .container-nav-links-flex-direction {
    display: flex;
    gap: 40px;
-   display: block;
+   
 }
 .container-address-links-flex-direction {
    display: flex;
